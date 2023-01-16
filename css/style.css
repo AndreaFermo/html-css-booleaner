@@ -1,9 +1,65 @@
+body{
+    margin: auto;
+}
 header {
+    height: 180px;
     background-image: url("../img/pattern.png");
-    background-color: rgb(78, 160, 255);
-    background-size: contain;
+    background-color: #4ea0ff;
 }
 
 #logo {
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 90px;
+}
 
+h2{
+    color: grey;
+}
+
+.scritta-celeste {
+    color: rgb(78, 160, 255);
+}
+
+h3{
+    color: gray;
+}
+
+.foto{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 12px;
+}
+
+ul{
+   padding-left: 20px;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+table{
+    width: 100%;
+}
+
+thead
+{
+    background-color: #4ea0ff;  
+}
+
+.colonnasinistra {
+    width: 18%;
+}
+
+.colonnacentrale{
+    width: 18%;
+}
+
+.colonnadestra{
+    width: 64%;
+}
+
+.celestino{
+    background-color: aquamarine;
 }
